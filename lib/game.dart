@@ -4,6 +4,7 @@ import 'package:tetris/main.dart';
 import 'utils/game_button.dart';
 
 enum buttonPressed { Left, Right, Rotate, None }
+enum moveBlock { Left, Right, Down, Up }
 
 class Game extends StatefulWidget {
   @override
